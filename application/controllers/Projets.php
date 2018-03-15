@@ -13,7 +13,21 @@
 
         
 }
-       
+   
+
+		public function test()
+{
+        
+        $data['title'] = 'Liste des tests'; // Capitalize the first letter
+
+        //$this->load->view('template/header');
+        $this->load->view('projets/test', $data);
+        //$this->load->view('template/footer');
+
+        
+}
+
+
 
 
 	}
