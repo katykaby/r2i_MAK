@@ -67,8 +67,8 @@
                   <td><?php echo $project['date_attribution']; ?></td>
                   <td class="text-center">
                    <div class="btn-group">
-                     <button class="btn btn-xs btn-default" type="button" data-toggle="tooltip" title="" data-original-title="Modifier Projet"><i class="fa fa-pencil"></i></button>
-                     <button class="btn btn-xs btn-default" type="button" data-toggle="tooltip" title="" data-original-title="Supprimer Projet"><i class="fa fa-times"></i></button>
+                      <button id="update_project_show" class="btn btn-xs btn-default" data-toggle="modal" title="Modifier le projet" data-target="#update-project"><span class="glyphicon glyphicon-edit"></span></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <button class="btn btn-xs btn-default" type="button" data-toggle="modal" title="Supprimer Projet"><i class="fa fa-times"></i></button>
                    </div>
                  </td>
                  
@@ -79,6 +79,7 @@
          </table>
        </div>
      </div>
+
      <!-- END Table projets -->
      <button id="add_project_show" class="btn btn-success btn-sm" data-toggle="modal" data-target="#add-project" data-backdrop="static" data-keyboard="false"><span class="glyphicon glyphicon-plus">&nbsp;</span> Ajouter projet</button>
 
